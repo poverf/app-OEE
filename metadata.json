@@ -1,0 +1,8 @@
+{
+  "name": "Remix: NexGen OEE Analyst",
+  "description": "Interactive OEE monitoring and predictive machine failure analytics for industrial manufacturing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
