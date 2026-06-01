@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import { Upload, FileSpreadsheet, AlertCircle, RefreshCw, Factory, LayoutDashboard, Brain, PlayCircle, Settings } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { Analytics } from '@vercel/analytics/react';
 import OEEOverview from './components/OEEOverview';
 import OEECharts from './components/OEECharts';
 import OEEPlanner from './components/OEEPlanner';
@@ -201,6 +202,7 @@ export default function App() {
           </AnimatePresence>
         </div>
       </main>
+      <Analytics />
     </div>
   );
 }
